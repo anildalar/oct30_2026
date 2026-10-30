@@ -10,7 +10,12 @@ jobs:
       - name: mystep1
         run: |
           whoami
+          cat /etc/passwd
           pwd
           cd
           ls -al
           cat /etc/os-release
+          docker --version
+          docker compose version
+          
+
