@@ -8,4 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: mystep1
-        run: whoami
+        run: |
+          whoami
+          pwd
+          cd
+          ls -al
+          cat /etc/os-release
